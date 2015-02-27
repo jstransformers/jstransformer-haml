@@ -1,0 +1,31 @@
+{
+  "name": "jstransformer-haml",
+  "version": "0.0.1",
+  "description": "Haml support for JS Transformers.",
+  "keywords": [
+    "jstransformer",
+    "haml"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "haml": "^0.4.3"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.5"
+  },
+  "scripts": {
+    "test": "node test",
+    "coverage": "istanbul cover test",
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
+  },
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstransformers/jstransformer-haml.git"
+  },
+  "author": "Rob Loach <robloach@gmail.com>"
+}
