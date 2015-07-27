@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-haml",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Haml support for JSTransformers.",
   "keywords": [
     "jstransformer",
