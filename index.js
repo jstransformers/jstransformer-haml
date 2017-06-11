@@ -1,6 +1,6 @@
 'use strict'
 
-var haml = require('haml')
+const haml = require('haml')
 
 exports.name = 'haml'
 exports.outputFormat = 'html'
