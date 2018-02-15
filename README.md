@@ -12,6 +12,12 @@
 
     npm install jstransformer-haml
 
+## API
+
+```js
+// TODO: Write API documentation
+```
+
 ## License
 
 MIT
